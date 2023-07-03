@@ -25,8 +25,8 @@ Welcome to the EMR's Club Website Project! We appreciate your interest in contri
 
 1.  **Naming Conventions:**
     
-    -   Variables and Functions: Use PascalCase for variable and function names. For example: `FirstName`, `GetUserData()`.
-    -   Filenames: Use CamelCase for file names. For example: `myFile.js`, `apiService.php`.
+    -   Variables and Functions: Use CamelCase for variable and function names. For example: `firstName`, `getUserData()`.
+    -   Filenames: Use PascalCase for file names. For example: `MyFile.js`, `ApiService.php`.
 2.  **Indentation and Whitespace:**
     
     -   Use spaces for indentation. Indentation size should be 2 spaces.
