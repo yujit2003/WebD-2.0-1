@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import HomeHero from "../components/HomeHero.jsx"
 
 function Home(){
