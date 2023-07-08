@@ -6,7 +6,7 @@ import $ from 'jquery';
 import Robot from "./utils/robot.png"
 
 export default class App extends Component {
-
+// eye jquery
     componentDidMount (){
         $(".home_container").mousemove(function(event) {
             var eye = $(".eye");
