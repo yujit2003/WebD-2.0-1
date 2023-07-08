@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import "../assets/css/HomeHero.css";
-import Logo from "../assets/images/utils/emr_logo_white.png";
+import Logo from "../assets/images/emr_logo_white.png";
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import $ from 'jquery';
-import Robot from "../assets/images/utils/robot.png"
+import Robot from "../assets/images/robot.png"
 
 export default class App extends Component {
 // eye jquery
