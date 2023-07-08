@@ -1,3 +1,38 @@
+# EMR's Club Website Project - Contribution Guidelines
+
+Welcome to the EMR's Club Website Project! We appreciate your interest in contributing to our project. To ensure consistency and maintain a high standard of code quality, we have established some guidelines that all contributors should follow. Please read the following guidelines carefully before making any contributions.
+
+## General Contribution Guidelines
+
+1.  **Fork the Repository:** Start by forking the main repository to your GitHub account.
+    
+2.  **Branching:** Create a new branch for each new feature or bug fix. This helps to keep the main branch clean and allows for easier review and merging of changes.
+    
+3.  **Commit Messages:** Write clear and descriptive commit messages. Your commit message should summarize the changes you have made.
+    
+4.  **Pull Requests:** When you are ready to submit your changes, open a pull request. Ensure that your pull request includes a detailed description of the changes made, along with any relevant information for the reviewers.
+    
+5.  **Code Reviews:** All pull requests will undergo a code review. Be open to feedback and address any comments or concerns raised by the reviewers. This iterative process helps maintain code quality and consistency.
+    
+6.  **Testing:** Whenever applicable, include tests for your code changes. Tests help ensure that your code behaves as expected and guards against regressions.
+    
+7.  **Documentation:** Update the project documentation whenever you make significant changes. This includes updating README files, adding inline code comments, and providing any necessary user documentation.
+    
+8.  **Respectful and Inclusive Environment:** We strive to maintain a respectful and inclusive environment for all contributors. Be considerate and professional in your interactions with others. We encourage diversity and welcome contributions from everyone.
+    
+
+## Coding Style Guidelines
+
+1.  **Naming Conventions:**
+    
+    -   Variables and Functions: Use CamelCase for variable and function names. For example: `firstName`, `getUserData()`.
+    -   Filenames: Use PascalCase for file names. For example: `MyFile.js`, `ApiService.php`.
+2.  **Indentation and Whitespace:**
+    
+    -   Use spaces for indentation. Indentation size should be 2 spaces.
+    -   Avoid trailing whitespace at the end of lines.
+    -   Maintain consistent and logical use of whitespace within code blocks to improve readability.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
