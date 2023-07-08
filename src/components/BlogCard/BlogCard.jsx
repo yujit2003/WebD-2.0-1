@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ig from '../../assets/images/insta.png';
- import ThumbUpIcon from '@mui/icons-material/ThumbUp';
- import ThumbDownIcon from '@mui/icons-material/ThumbDown';
+import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import ThumbUpIcon2 from '@mui/icons-material/ThumbUpAltOutlined';
 import ThumbDownIcon2 from '@mui/icons-material/ThumbDownOutlined';
 import '../../assets/css/BlogCard.css';
@@ -65,3 +65,5 @@ const BlogCard = ({ title, date, instagramLink, content }) => {
 
 
 export default BlogCard;
+
+// Blog Card
