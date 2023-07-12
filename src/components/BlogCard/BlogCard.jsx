@@ -13,14 +13,35 @@ const BlogCard = ({ title, date, instagramLink, content }) => {
     const [clicked_d, setClicked_d] = useState(false);
 
     const handleLike = () => {
+      if(clicked_d)
+      {
+        setDislikes(dislikes-1)
+        setClicked_d(false)
+      }
       setLikes(likes + 1);
       setClicked_l(true);
     };
   
     const handleDislike = () => {
-      setDislikes(dislikes + 1);
-      setClicked_d(true);
+      if(clicked_l)
+      {
+        setLikes(likes-1)
+        setClicked_l(false)
+        setDislikes(dislikes + 1);
+        setClicked_d(true)
+      }
+      if(!clicked_d)
+      {
+        setDislikes(dislikes + 1);
+        setClicked_d(true);
+      }
+      else
+      {
+        setDislikes(dislikes - 1);
+        setClicked_d(false);
+      }
     };
+
   
     return (
       <div className="blog">
@@ -52,7 +73,7 @@ const BlogCard = ({ title, date, instagramLink, content }) => {
           </div>
 
           <div className="blog-bottom">
-            <button className="blog-button" onClick={handleDislike} disabled={clicked_d}>
+            <button className="blog-button" onClick={handleDislike} >
               {clicked_d ? <ThumbDownIcon className="blog-d" /> : <ThumbDownIcon2 />}
             </button>
             <span>{dislikes}</span>
