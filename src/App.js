@@ -1,21 +1,50 @@
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import Footer from "./components/Footer.jsx";
-import Home from './pages/Home.jsx';
-import Blog from './pages/Blog.jsx';
+// import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+// import Footer from "./components/HomeHero/Footer";
+// import Home from './pages/Home.jsx';
+// import Blog from './pages/Blog.jsx';
 
 
-function App() {
+// function App() {
+//   return (
+//     <Router>
+//       {/* <Header /> */}
+//       <Routes>
+//         <Route path='/' element={<Blog/>} />
+//         <Route path='/' element={<Home/>} />
+
+//       </Routes>
+//       <Footer />
+//     </Router>
+//   );
+// }
+
+// export default App;
+
+
+
+//-------------- yhi to chahiye ( final from my side )----------------
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+// import TabLinks from './components/TabLinks/TabLinks.jsx';
+import Blog from './components/BlogCard/BlogPage';
+
+const App = () => {
   return (
-    <Router>
-      {/* <Header /> */}
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/Blog' element={<Blog/>} />
+    <div className="app">
+      {/* <Home /> */}
+      {/* <TabLinks /> */}
 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<TabLinks />} /> */}
+        <Route path="/blog" element={<Blog />} />
       </Routes>
-      <Footer />
-    </Router>
+      
+    </div>
   );
-}
+};
 
 export default App;
+
