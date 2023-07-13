@@ -1,10 +1,12 @@
 import React from 'react';
 import BlogCard from './BlogCard';
+import BlogHero from '../BlogHero/BlogHero';
 
 
 const BlogPage = () => {
   return (
     <div className="blog-page">
+      <BlogHero />
       <BlogCard
         title="Blog Title 1"
         date="July 7, 2023"
