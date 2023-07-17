@@ -1,17 +1,35 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
-.App {
-    text-align: center;
-    width: 100%;
-    padding: 2rem auto;
+.upcoming_workshop_block {
     background-color: black;
-    /* height: 570px; */
+    text-align: center;
+    padding: 5% 0;
 }
+
+.slider_block {
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: auto;
+    background-color: black;
+}
+
+.upcoming_workshop_text {
+    color: white;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
 
 .slide img {
     width: 50rem;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -27,7 +45,8 @@
 }
 
 .arrow {
-    background-color: #fff;
+    background-color: transparent;
+    color: white;
     position: absolute;
     cursor: pointer;
     z-index: 10;
