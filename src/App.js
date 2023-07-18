@@ -26,7 +26,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 // import TabLinks from './components/TabLinks/TabLinks.jsx';
 import Blog from "./components/BlogCard/BlogPage";
-
+import Gallery from "./pages/Gallery";
 const App = () => {
   return (
     <div className="app">
@@ -37,6 +37,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         {/* <Route path="/" element={<TabLinks />} /> */}
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={<Gallery />} />
       </Routes>
     </div>
   );
