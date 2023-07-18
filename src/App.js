@@ -3,7 +3,6 @@
 // import Home from './pages/Home.jsx';
 // import Blog from './pages/Blog.jsx';
 
-
 // function App() {
 //   return (
 //     <Router>
@@ -20,15 +19,13 @@
 
 // export default App;
 
-
-
 //-------------- yhi to chahiye ( final from my side )----------------
 
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 // import TabLinks from './components/TabLinks/TabLinks.jsx';
-import Blog from './components/BlogCard/BlogPage';
+import Blog from "./components/BlogCard/BlogPage";
 
 const App = () => {
   return (
@@ -41,10 +38,8 @@ const App = () => {
         {/* <Route path="/" element={<TabLinks />} /> */}
         <Route path="/blog" element={<Blog />} />
       </Routes>
-      
     </div>
   );
 };
 
 export default App;
-
