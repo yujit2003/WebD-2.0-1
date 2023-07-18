@@ -8,9 +8,9 @@ const UpcomingWorkshops = () => {
   return (
     <div className="upcoming_workshop_block">
       <h1 class="glitch">
-        <span aria-hidden="true">Upcoming Workshop</span>
-        Upcoming Workshop
-        <span aria-hidden="true">Upcoming Workshop</span>
+        <span aria-hidden="true">Upcoming Event</span>
+        Upcoming Event
+        <span aria-hidden="true">Upcoming Event</span>
       </h1>
       <div className="module_border_wrap ">
         <div className="module">
