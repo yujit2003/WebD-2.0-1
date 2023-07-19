@@ -10,9 +10,9 @@ import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 import img1 from '../../assets/images/demo.jpg'
 
 // import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
-import "../../assets/css/Gallary.css";
+import "../../assets/css/Gallery.css";
 
-function Gallary() {
+function Gallery() {
  
   return (
     <div className='gallary-container'>
@@ -433,4 +433,4 @@ function Gallary() {
   );
 }
 
-export default Gallary
+export default Gallery
