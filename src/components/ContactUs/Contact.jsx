@@ -1,5 +1,5 @@
 import "../../assets/css/Contact.css";
-import contactIcon from "../../assets/images/contact_icon.png";
+// import contactIcon from "../../assets/images/contact_icon.png";
 import mailIcon from "../../assets/images/mail_icon.png";
 import mapIcon from "../../assets/images/map_icon.png";
 import linkedinIcon from "../../assets/images/linkedin.png"
@@ -11,7 +11,7 @@ const Contact = () => {
     <div className="contact_block">
       <div className="contact_header flex items-center justify-center">
         <h1 className="contact_heading">Contact Us</h1>
-        <img src={contactIcon} alt="contact_icon" />
+        {/* <img src={contactIcon} alt="contact_icon" /> */}
       </div>
       <div className="contact_body md:columns-2">
         <div className="map_block">

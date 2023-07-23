@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import roboImg from '../../assets/images/robo.png';
-import '../CSS/Sponsor.css';
+import '../../assets/css/Sponsor.css';
 
 const SponsorPage = () => {
 
