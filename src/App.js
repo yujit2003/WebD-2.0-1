@@ -27,6 +27,7 @@ import Home from "./pages/Home";
 // import TabLinks from './components/TabLinks/TabLinks.jsx';
 import Blog from "./components/BlogCard/BlogPage";
 import GalleryPage from "./pages/GalleryPage";
+import SponserPage from "./components/SponsorPage/SponsorPage"
 const App = () => {
   return (
     <div className="app">
@@ -38,6 +39,7 @@ const App = () => {
         {/* <Route path="/" element={<TabLinks />} /> */}
         <Route path="/blog" element={<Blog />} />
         <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/sponser" element={<SponserPage />} />
       </Routes>
     </div>
   );

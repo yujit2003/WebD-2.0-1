@@ -37,12 +37,17 @@ function Gallery() {
           stretch: -19,
           depth: 100,
           modifier: 1,
-          
           slideShadows: true
         }}
       
         className="mySwiper"
       >
+        <SwiperSlide>
+        <div>
+          <img src={img1} />
+          
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
         <div>
           <img src={img1} />
