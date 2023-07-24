@@ -10,9 +10,12 @@ export default function Home() {
   return (
     <div className="h-screen">
       <HomeHero />
-      {/* <TabLinks /> */}
+      <TabLinks />
       <UpcomingWorkshops />
       <Contact />
+
+      {/* <TabLinks /> */}
+      {/* <BlogPage /> */}
     </div>
   );
 }
