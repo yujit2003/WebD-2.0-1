@@ -36,7 +36,7 @@ export const tabData = [
   
     {
       label: 'GALLERY',
-       path: '/',
+       path: '/gallery',
        backgroundImage: gallery
     },
     {

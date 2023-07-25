@@ -1,30 +1,22 @@
 import React from 'react'
-import './Card.css';
+import '../../assets/css/TeamCard.css';
 import { useState } from 'react';
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
-// import img1 from "/Users/tapasviarora/Desktop/WebD-2.0/src/components/Team/Profile Photo (File responses)/priyanshu - Priyanshu Narwaria.jpg";
-// import img2 from "/Users/tapasviarora/Desktop/WebD-2.0/src/components/Team/Profile Photo (File responses)/01F024EA-4C85-4C8A-AA2C-81A72E1159B5 - Priyanshi.jpeg";
-// import img3 from "/Users/tapasviarora/Desktop/WebD-2.0/src/components/Team/Profile Photo (File responses)/InShot_20230516_220552985 - 143_SUNIL RATHORE.jpg"
-// import img4 from "/Users/tapasviarora/Desktop/WebD-2.0/src/components/Team/Profile Photo (File responses)/IMG_9481 - KRITIKA.jpeg"
-// import img5 from "/Users/tapasviarora/Desktop/WebD-2.0/src/components/Team/Profile Photo (File responses)/20220922_134905 - Nicky.jpg"
-// import img6 from "/Users/tapasviarora/Desktop/WebD-2.0/src/components/Team/Profile Photo (File responses)/Arpit_Image_square - ARPIT BHATNAGAR.jpg"
-// import img7 from "/Users/tapasviarora/Desktop/WebD-2.0/src/components/Team/Profile Photo (File responses)/PXL_20230202_044345959 - 5159_Ritesh_ecc9.jpg"
-// import img8 from "/Users/tapasviarora/Desktop/WebD-2.0/src/components/Team/Profile Photo (File responses)/Deepan - Deepan Adak.jpg"
 
-
-import img1 from "./Photos/priyanshu - Priyanshu Narwaria.jpg";
-import img2 from "./Photos/Priyanshi.jpeg";
-import img3 from "./Photos/rathore.jpg"
-import img4 from "./Photos/Kritika.jpeg"
-import img5 from "./Photos/Nicky.jpg"
-import img6 from "./Photos//Arpit.jpg"
-import img7 from "./Photos/Ritesh.jpg"
-import img8 from "./Photos/deepan.jpg"
+import img1 from "../../assets/images/Team_Profile/priyanshu - Priyanshu Narwaria.jpg";
+import img2 from "../../assets/images/Team_Profile/Priyanshi.jpeg";
+import img3 from "../../assets/images/Team_Profile/rathore.jpg"
+import img4 from "../../assets/images/Team_Profile/Kritika.jpeg"
+import img5 from "../../assets/images/Team_Profile/Nicky.jpg"
+import img6 from "../../assets/images/Team_Profile//Arpit.jpg"
+import img7 from "../../assets/images/Team_Profile/Ritesh.jpg"
+import img8 from "../../assets/images/Team_Profile/deepan.jpg"
 
 const cardData=[
 {
