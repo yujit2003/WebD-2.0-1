@@ -41,8 +41,13 @@ export const tabData = [
     },
     {
       label: 'TEAM',
-       path: '/',
+       path: '/team',
        backgroundImage: team
+    },
+    {
+      label: 'Sponser',
+       path: '/sponser',
+       backgroundImage: blog
     },
     {
       label: 'SOON..',
