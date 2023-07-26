@@ -29,7 +29,7 @@ text-align:center;
 }
 .Card{
 width:300px;
-height:450px;
+height:300px;
 padding:1rem 3rem;
 margin-right:5px;
 margin-bottom:35px;
@@ -134,7 +134,7 @@ color:black;
 background-color:white;
 width:25px;
 height:25px;
-margin-top:120px;
+margin-top:40px;
 border-radius:50%;
 padding:8px;
 position:relative;
@@ -143,7 +143,21 @@ display:block;}
 @media only screen and (max-width:1200px) {
 .wrapper{
 justify-content:space-around;
+margin-top:30px;
+
 }
+.Card{
+    width:200px;
+    height:200px;
+margin-top:-10px;
+
+
+}
+
+
+
+
+
 
 
   }
