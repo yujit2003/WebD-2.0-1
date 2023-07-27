@@ -1,6 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
+  
 }
 
 .gallary-container {
@@ -12,6 +11,7 @@
   background-attachment: fixed;
 
   overflow: hidden;
+  /* padding-top : 100px; */
 }
 
 .home_content {
@@ -27,10 +27,10 @@
   color: rgb(65, 146, 77);
   justify-content: center;
   align-items: center;
-  font-size: 9vh;
+  font-size: 3rem;
   font-weight: 800;
   position: absolute;
-  top: 60px;
+  top: 65px;
 }
 
 .home_heading-1 {
@@ -42,7 +42,7 @@
   font-size: 7vh;
   font-weight: 500;
   position: absolute;
-  top: 4px;
+  top: 100px;
 }
 .swiper-slide-active img {
   filter: brightness(110%);

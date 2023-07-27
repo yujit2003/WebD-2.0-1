@@ -1,4 +1,9 @@
 .contact_block {
+
+    /* background-color: black; */              /*by ash  */
+    /* display: flex; */             /*by ash  */
+    margin: 0px;
+    padding-top: 100px;
     background-color: black;
     z-index:2;
     position: relative;
@@ -23,15 +28,28 @@
 
 .contact_body {
     padding: 30px;
+
+    /*by ash  */
+     display: block;
+     justify-content: space-evenly;
+     
 }
 
 .card {
     width: 70%;
-    margin-bottom: 50px;
+    
+    /*by ash  */
+    /* margin-bottom: 50px; */
+    margin: 30px; 
+
 }
 
 
+.map_block{
+    margin-left : 100px;
+    width: 70wh;
+}
 .map_block iframe {
-    width: 100%;
+    width: 90%;
     height: 600px;
 }

@@ -1,21 +1,29 @@
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap');
 
 .bod{
+    margin-top: 120px;
 background-attachment: fixed;
-background-color:rgba(0, 0, 0, 0.95);
+/* background-color:rgba(0, 0, 0, 0.95); */
+
+
 }
 .title{
     text-align:center;
-    font-size:40px;
+    font-size:60px;
     font-weight:400;
     font-family: 'Roboto Slab', serif;
     color:green;
 
 }
 .wrapper{
-width:95%;
-height:100%;
+width:90%;
+height:90%;
 margin:auto;
 margin-top:50px;
 justify-content:space-between;
@@ -51,16 +59,13 @@ opacity:0.5;
 
     transform:scale(1.1);
     opacity:1;
-    .img{
-
-filter:blur(5px);
-
-
-    }
-border:solid 1px #fff ;
-
+    border:solid 1px #fff ;
 
 }
+
+.wrapper .Card:hover img{
+    filter:blur(5px);
+   }
 
 .wrapper:hover .Card{
     opacity:1;
