@@ -25,10 +25,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 // import TabLinks from './components/TabLinks/TabLinks.jsx';
-import Blog from "./components/BlogCard/BlogPage";
+import Blog from "./pages/Blog";
 import GalleryPage from "./pages/GalleryPage";
-import SponserPage from "./components/SponsorPage/SponsorPage"
-import EventPage from "./components/Event/pages/eventpages/eventpage";
+import SponserPage from "./pages/SponsorPage"
+import EventPage from "./pages/eventpage";
 import TeamPage from "./pages/TeamPage";
 
 

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Header from "../../component/common/header";
-import RoboSoccor from "../../component/Robosoccor";
-import Pixar from "../../component/Pixar";
-import Simulator from "../../component/Simulator";
-import MazeUp from "../../component/Maze up";
-import BitCoding from "../../component/Bit Coding";
+import Header from "../components/Event/component/common/header";
+import RoboSoccor from "../components/Event/component/Robosoccor";
+import Pixar from "../components/Event/component/Pixar";
+import Simulator from "../components/Event/component/Simulator";
+import MazeUp from "../components/Event/component/Maze up";
+import BitCoding from "../components/Event/component/Bit Coding";
 
 function EventPage() {
   const [activeTab, setActiveTab] = useState("RoboSoccor");
