@@ -30,6 +30,7 @@ import GalleryPage from "./pages/GalleryPage";
 import SponserPage from "./components/SponsorPage/SponsorPage"
 import Team from "./components/Team/Card"
 import EventPage from "./components/Event/pages/eventpages/eventpage";
+import FacultyCard from "./components/Faculty/FacultyCard"
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
         <Route path="/sponser" element={<SponserPage />} />
         <Route path="/event" element={<EventPage/>} />
         <Route path="/team" element={<Team/>}/>
+        <Route path="/Faculty" element={<FacultyCard />} />
       </Routes>
     </div>
   );
