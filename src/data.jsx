@@ -23,8 +23,8 @@ export const tabData = [
     backgroundImage: workshop,
   },
   {
-    label: "PROJECTS",
-    path: "/",
+    label: "SPONSER",
+    path: "/sponser",
     backgroundImage: projects,
   },
   {
@@ -35,12 +35,12 @@ export const tabData = [
 
   {
     label: "GALLERY",
-    path: "/",
+    path: "/gallery",
     backgroundImage: gallery,
   },
   {
     label: "TEAM",
-    path: "/",
+    path: "/TeamPage",
     backgroundImage: team,
   },
   {
