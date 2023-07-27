@@ -1,7 +1,3 @@
-// import home from "./assets/images/emr_logo.png"
-// import testBG from "./assets/images/giphy.gif"
-// import Home1 from "./pages/Home"
-// import Blog from "./components/BlogCard/BlogPage"
 
 //------- background of tab links ------
 import Tech_fest from "./assets/images/Tech_fest.png"
@@ -10,6 +6,9 @@ import projects from  "./assets/images/projects.png"
 import workshop from "./assets/images/workshop.png"
 import blog from "./assets/images/blog.png"
 import team from "./assets/images/team.png"
+
+import {Hero, Navbar,Works, StarsCanvas ,TabLinks,BlogPage
+} from "./components";
 
 
 export const tabData = [
@@ -36,18 +35,13 @@ export const tabData = [
   
     {
       label: 'GALLERY',
-       path: '/gallery',
+       path: '/',
        backgroundImage: gallery
     },
     {
       label: 'TEAM',
-       path: '/team',
+       path: '/',
        backgroundImage: team
-    },
-    {
-      label: 'Sponser',
-       path: '/sponser',
-       backgroundImage: blog
     },
     {
       label: 'SOON..',
@@ -57,3 +51,7 @@ export const tabData = [
     
  
 ];
+
+
+
+
