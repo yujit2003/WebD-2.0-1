@@ -28,9 +28,8 @@ import Home from "./pages/Home";
 import Blog from "./components/BlogCard/BlogPage";
 import GalleryPage from "./pages/GalleryPage";
 import SponserPage from "./components/SponsorPage/SponsorPage"
-import Team from "./components/Team/Card"
 import EventPage from "./components/Event/pages/eventpages/eventpage";
-import FacultyCard from "./components/Faculty/FacultyCard"
+import TeamPage from "./pages/TeamPage";
 
 
 const App = () => {
@@ -46,8 +45,7 @@ const App = () => {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/sponser" element={<SponserPage />} />
         <Route path="/event" element={<EventPage/>} />
-        <Route path="/team" element={<Team/>}/>
-        <Route path="/Faculty" element={<FacultyCard />} />
+        <Route path="/TeamPage" element={<TeamPage />} />
       </Routes>
     </div>
   );
