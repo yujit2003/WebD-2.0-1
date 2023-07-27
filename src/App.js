@@ -27,10 +27,10 @@ import Home from "./pages/Home";
 // import TabLinks from './components/TabLinks/TabLinks.jsx';
 import Blog from "./pages/Blog";
 import GalleryPage from "./pages/GalleryPage";
-import SponserPage from "./pages/SponsorPage"
+import SponserPage from "./pages/SponsorPage";
 import EventPage from "./pages/eventpage";
 import TeamPage from "./pages/TeamPage";
-
+import WorkshopPage from "./pages/WorkshopPage";
 
 const App = () => {
   return (
@@ -44,8 +44,9 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/sponser" element={<SponserPage />} />
-        <Route path="/event" element={<EventPage/>} />
+        <Route path="/event" element={<EventPage />} />
         <Route path="/TeamPage" element={<TeamPage />} />
+        <Route path="/workshops" element={<WorkshopPage />} />
       </Routes>
     </div>
   );
