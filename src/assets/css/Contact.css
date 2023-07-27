@@ -1,10 +1,13 @@
 .contact_block {
+
     /* background-color: black; */              /*by ash  */
     /* display: flex; */             /*by ash  */
     margin: 0px;
     padding-top: 100px;
+    background-color: black;
+    z-index:2;
+    position: relative;
 
-}
 
 .contact_header {
     width: 100%;
