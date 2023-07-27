@@ -19,7 +19,7 @@ export const tabData = [
   },
   {
     label: "Workshops",
-    path: "/",
+    path: "/workshops",
     backgroundImage: workshop,
   },
   {
