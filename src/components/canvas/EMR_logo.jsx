@@ -51,6 +51,7 @@ const EMR_logo = () => {
     //  change position of logo 
       position-y={-3}
       position-x={-4}
+      //
 
 
       // change rotation of logo
