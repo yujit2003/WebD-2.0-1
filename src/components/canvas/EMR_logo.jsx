@@ -70,8 +70,8 @@ const EMR_logo = () => {
     //   position-x={-5}
 
     //   // change rotation of logo
-    //   rotation-y={-6.26}
-    //   rotation-x={-10.999}
+      // rotation-y={-6.26}
+      // rotation-x={-10.999}
  
     // 
      
@@ -105,7 +105,7 @@ const EMR_logo_canvas = () => {
           autoRotate
           autoRotateSpeed={6}
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 1}
           minPolarAngle={Math.PI / 2}
         />
         <EMR_logo />

@@ -5,11 +5,11 @@ import {
   Hero,
   Navbar,
   StarsCanvas,
- 
-  Contact,
-  UpcomingWorkshops,
-  BlogPage,
+
 } from "../components";
+
+import Contact from "../components/ContactUs/Contact";
+import UpcomingWorkshops from "../components/UpcomingWorkshops/UpcomingWorkshops";
 
 export default function Home() {
   return (
