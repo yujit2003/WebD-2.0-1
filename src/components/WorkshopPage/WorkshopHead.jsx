@@ -4,7 +4,16 @@ import { Carousel } from "react-carousel-minimal";
 import img1 from "../../assets/images/WorkshopPage/carousel1.jpg";
 import img2 from "../../assets/images/WorkshopPage/carousel2.jpg";
 import img3 from "../../assets/images/WorkshopPage/carousel3.jpg";
+import {Navigate, useNavigate} from "react-router-dom";
+
 function WorkshopHead() {
+
+  const navigate = useNavigate();
+  const workshopdetail = () => {
+    navigate(`/Roger28-51-emr/workshop/detail`, { replace: true });
+  };
+
+
   const data = [
     {
       image: img1,
@@ -58,7 +67,7 @@ function WorkshopHead() {
 
       <div className="explorebtn-container">
         <AnchorLink href="#current-Workshop-Head">
-          <button className="explorebtn">Explore</button>
+          <button className="explorebtn" onClick={workshopdetail}>Explore</button>
         </AnchorLink>
       </div>
     </div>

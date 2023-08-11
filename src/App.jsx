@@ -9,6 +9,8 @@ import {    Navbar, StarsCanvas ,
 import Home from './pages/Home';
 import GalleryComp from './pages/GalleryPage';
 import TeamComp from './pages/TeamPage';
+import Workshop from './pages/WorkshopPage';
+import WorkshopDetail from './components/WorkshopPage/WorkshopDetail'
 // import Blog from './pages/Blog';
 import ContactUs from './components/ContactUs/Contact'
 
@@ -28,6 +30,8 @@ const App = () => {
    
 
         <Route path="/Roger28-51-emr/gallery" element={<GalleryComp/>} />
+        <Route path="/Roger28-51-emr/workshop" element={<Workshop/>} />
+        <Route path="/Roger28-51-emr/workshop/detail" element={<WorkshopDetail/>} />
       </Routes>
 
     </BrowserRouter>
